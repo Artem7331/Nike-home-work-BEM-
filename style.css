@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+	width: 1366px;
+	/*height: 600px;*/
+	margin:0 auto;
+}
+
+.header{
+	background: url(img/bg.png) no-repeat;
+	background-size: cover;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	height: 635px;
+	padding-top: 100px;	
+}
+
+.header__form{
+	width: 686px;
+	height: 391px;
+	box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+	border-radius: 10px;
+	background-color: #111a28;
+	margin: 0 auto;
+	padding-top: 24px;
+    padding-left: 21px;
+}
+
+.header__left{
+	width: 50%;
+  	float: left;
+}
+
+.just__logo{
+	background: url(img/logo.png) no-repeat;
+	width: 65px;
+	height: 33px;
+	padding-top:100px;
+	padding-left: 36px;
+}
+
+.just__boots{
+	background: url(img/Nike-boots.png) no-repeat;
+	width: 329px;
+	height: 159px;
+	padding-top: 210px;
+	padding-left: 178px;
+}
+
+.just__slider{
+	background: url(img/slider.png);
+	width: 69px;
+	height: 16px;
+	margin-left: 130px;
+}
+
+.header__right{
+	width: 50%;
+  	float: right;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 50px;
+	padding-top: 60px;
+}
+
+.info__name{
+	color: #e1e1e1;
+	font-size: 24px;
+	font-weight: 100;
+	line-height: 26px;
+	letter-spacing: 0.48px;
+}
+
+.info__next-name{
+	opacity: 0.54;
+	color: #e1e1e1;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0.28px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.info__rating{
+	background: url(img/stars.png) no-repeat;
+	width: 65px;
+	height: 12px;
+	padding-top: 37px;
+}
+
+.info__select{
+	padding-bottom: 20px;
+}
+
+#sizeQty{
+	width: 69px;
+	height: 32px;
+	border: 1px solid #ffffff;
+	background-color: #111a28;
+	opacity: 0.26;
+}
+
+#sizeQty:nth-child(1n+1){
+	color: #e1e1e1;
+	text-align: center;
+	padding-left:13px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.info__button{
+	width: 184px;
+	padding: 17px 0;
+	text-align:center;
+	border: 1px solid #ffffff;
+	background-color: #4c525a;
+	transition: all 0.5s ease;
+	opacity: 0.26;
+}
+
+.info__button:hover{
+	background-color: #4c525a;
+	opacity: 0.80;	
+}
+
+.info a{
+	color: #e1e1e1;
+	font-size: 18px;
+	font-weight: 400;
+	text-decoration:none;
+}
